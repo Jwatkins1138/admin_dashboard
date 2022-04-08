@@ -45,6 +45,7 @@ button {
 
 
 
+
 #sidebar >* {
   display: flex;
   flex-direction: column;
@@ -52,6 +53,10 @@ button {
   
 }
 
+#sidebar >* > a {
+  color: white;
+  text-decoration: none;
+}
 
 #sidebar >* >* {
   display: flex;
